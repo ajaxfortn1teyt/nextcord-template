@@ -9,9 +9,9 @@ intents.members = True
 intents.messages = True
 import datetime
 import humanfriendly
-client = commands.Bot(command_prefix='a?', intents=intents)
+client = commands.Bot(command_prefix='!', intents=intents)
 
-testingServerID = 973046336167510046
+testingServerID = # Ur server id here
 
 @client.event
 async def on_ready():
